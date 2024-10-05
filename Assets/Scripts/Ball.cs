@@ -48,9 +48,7 @@ public class Ball : MonoBehaviour
                 Destroy(gameObject);
                 gameOverUI.SetActive(true);
             } else {
-                Vector3 position = Vector3.zero;
-                Instantiate(newBall, position, Quaternion.identity);
-                Destroy(gameObject);
+                transform.position = Vector3.zero;
             }
         }
         else if(other.CompareTag("Block"))

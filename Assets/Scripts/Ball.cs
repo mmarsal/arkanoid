@@ -47,6 +47,7 @@ public class Ball : MonoBehaviour
             {
                 Destroy(gameObject);
                 gameOverUI.SetActive(true);
+                Time.timeScale = 0;
             } else {
                 transform.position = Vector3.zero;
             }

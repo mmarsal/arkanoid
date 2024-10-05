@@ -6,10 +6,8 @@ using TMPro;
 
 public class Block : MonoBehaviour
 {
-    // Private field to hold the randomly generated color
     private Color randomColor;
 
-    // Reference to the block's Renderer
     private Renderer blockRenderer;
 
     private int hitCount;
@@ -27,10 +25,8 @@ public class Block : MonoBehaviour
     {
         blockRenderer = GetComponent<Renderer>();
 
-        // Generate a random color
         randomColor = new Color(Random.value, Random.value, Random.value);
 
-        // Apply the random color to the block's material
         blockRenderer.material.color = randomColor;
 
         hitCount = Random.Range(1, 6);

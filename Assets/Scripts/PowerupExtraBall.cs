@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerupSlowdown : MonoBehaviour
+public class PowerupExtraBall : MonoBehaviour
 {
     private Vector3 velocity = new Vector3(0, 0, -2);
+    public GameObject newBall;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +26,8 @@ public class PowerupSlowdown : MonoBehaviour
             Destroy(gameObject);
         } else if(other.CompareTag("Paddle")) {
             Destroy(gameObject);
-            Time.timeScale = 0.5f;
-            Time.fixedDeltaTime = 0.02f * Time.timeScale;
+            Vector3 position = Vector3.zero;
+            Instantiate(newBall, position, Quaternion.identity);
         }
     }
 }

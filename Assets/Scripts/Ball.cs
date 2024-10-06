@@ -11,6 +11,7 @@ public class Ball : MonoBehaviour
     public TMP_Text text;
     public TMP_Text lives;
     public GameObject gameOverUI;
+    public GameObject restartButton;
 
     // Update is called once per frame
     void Update()
@@ -47,6 +48,7 @@ public class Ball : MonoBehaviour
             {
                 Destroy(gameObject);
                 gameOverUI.SetActive(true);
+                restartButton.SetActive(true);
                 Time.timeScale = 0;
             } else {
                 transform.position = Vector3.zero;

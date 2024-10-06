@@ -26,7 +26,7 @@ public class PowerupSlowdown : MonoBehaviour
         } else if(other.CompareTag("Paddle")) {
             Destroy(gameObject);
             Time.timeScale = 0.5f;
-            Time.fixedDeltaTime = 0.02f * Time.timeScale;
+            Time.fixedDeltaTime = 0.05f * Time.timeScale;
         }
     }
 }

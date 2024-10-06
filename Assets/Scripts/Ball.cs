@@ -33,10 +33,13 @@ public class Ball : MonoBehaviour
             {
                 velocity = new Vector3(velocity.x, velocity.y, -velocity.z);
             }
+
+            beep.Play();
         }
         else if(other.CompareTag("Paddle"))
         {
             velocity = new Vector3(velocity.x, velocity.y, -velocity.z);
+            beep.Play();
         }
         else if(other.CompareTag("BottomWall"))
         {
@@ -57,8 +60,7 @@ public class Ball : MonoBehaviour
         else if(other.CompareTag("Block"))
         {
             velocity = new Vector3(velocity.x, velocity.y, -velocity.z);
+            beep.Play();
         }
-
-        beep.Play();
     }
 }

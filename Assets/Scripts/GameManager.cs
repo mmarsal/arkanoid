@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour
             if(childCount == 0)
             {
                 victoryUI.SetActive(true);
-                // TODO: Fix this button
-                // restartButton.SetActive(true);
                 Time.timeScale = 0;
             }
         }

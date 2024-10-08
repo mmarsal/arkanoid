@@ -197,7 +197,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 959c58808be22cf4799bbf379898bd2c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -276,6 +276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: m_TagString
       value: Block
       objectReference: {fileID: 0}
@@ -341,10 +346,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -415,8 +426,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294952448
+  m_fontColor: {r: 0, g: 0.77647066, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -685,7 +696,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: b8e5ed7125cd39744a981c401904a375, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1235,7 +1246,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 271d3b5865f236e4bae42f9f4ac28984, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1277,6 +1288,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -1345,10 +1361,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1476,6 +1498,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: m_TagString
       value: Block
       objectReference: {fileID: 0}
@@ -1541,10 +1568,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1561,6 +1594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -1629,10 +1667,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1703,8 +1747,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255410
+  m_fontColor: {r: 0.19607845, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1892,8 +1936,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294952448
+  m_fontColor: {r: 0, g: 0.77549124, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2068,7 +2112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.48909432, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2105,6 +2149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -2173,10 +2222,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2256,7 +2311,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 959c58808be22cf4799bbf379898bd2c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2352,8 +2407,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2546,6 +2601,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: m_TagString
       value: Block
       objectReference: {fileID: 0}
@@ -2611,10 +2671,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2956,6 +3022,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: m_TagString
       value: Block
       objectReference: {fileID: 0}
@@ -3021,10 +3092,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3244,8 +3321,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255408
+  m_fontColor: {r: 0.19004571, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3387,7 +3464,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 959c58808be22cf4799bbf379898bd2c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3495,8 +3572,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3674,7 +3751,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 959c58808be22cf4799bbf379898bd2c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3734,6 +3811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -3802,10 +3884,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3822,6 +3910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -3890,10 +3983,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3916,6 +4015,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -3984,10 +4088,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4010,6 +4120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -4078,10 +4193,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4098,6 +4219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -4166,10 +4292,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4186,6 +4318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
@@ -4254,10 +4391,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4574,6 +4717,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 588613796746592440, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: m_TagString
       value: Block
       objectReference: {fileID: 0}
@@ -4639,10 +4787,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4745,6 +4899,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5662541184635551601, guid: e9c4ad30e467b2f4db1485fb38ba3b06,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5662541184635551601, guid: e9c4ad30e467b2f4db1485fb38ba3b06,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8593896762548348528, guid: e9c4ad30e467b2f4db1485fb38ba3b06,
         type: 3}
       propertyPath: m_Name
@@ -4839,10 +5003,16 @@ PrefabInstance:
       objectReference: {fileID: 876104031}
     - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
         type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713844939361725967, guid: 761deb591ecb1bf48a0081f8563bd9eb,
+        type: 3}
       propertyPath: powerupParent
       value: 
       objectReference: {fileID: 41068525}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4968234168664867702, guid: 761deb591ecb1bf48a0081f8563bd9eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

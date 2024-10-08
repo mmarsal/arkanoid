@@ -37,7 +37,6 @@ public class Block : MonoBehaviour
             int childCount = powerupParent.transform.childCount;
             int randomIndex = Random.Range(0, childCount);
 
-            // Get the randomly selected child (power-up)
             selectedPowerup = powerupParent.transform.GetChild(randomIndex);
             spawnsPowerup = true;
         }

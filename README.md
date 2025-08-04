@@ -1,3 +1,5 @@
+# arkanoid
+
 Dieses Projekt ist eine Umsetzung des Spiels Arkanoid. Ziel ist es,
 alle Blöcke mithilfe des Balls und des Paddles zu zerstören.
 Wenn der Ball drei Mal den Boden berührt, hat man verloren.
